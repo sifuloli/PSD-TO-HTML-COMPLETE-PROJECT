@@ -1,0 +1,217 @@
+/*======================================================*/
+/*FONT SETUP*/
+/*======================================================*/
+
+
+/*======================================================*/
+/*BASIC SETUP*/
+/*======================================================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row{
+    max-width: 1180px;
+    margin: auto;
+}
+/*======================================================*/
+/*REUSEABLE COMPONENT*/
+/*======================================================*/
+header,
+section,
+footer{
+    padding: 80px 0;
+}
+h1{
+    font-size: 300%;
+    font-weight: 700;
+}
+h2{
+    font-size: 200%;
+    font-weight: 700;
+}
+h3{
+    font-size: 150%;
+    font-weight: 700;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.btn-full{
+    background-color: red;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 3%;
+    color: #fff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+/*======================================================*/
+/*HEADER SECTION*/
+/*======================================================*/
+.hero{
+    background: url("../img/head-bg.jpg") no-repeat center / cover fixed;
+    height: 100vh;
+    padding: 30px 20px;
+}
+.navbar{
+}
+.navbar ul li{
+    float: left;
+    padding: 10px;    
+}
+.navbar ul li a{
+    color: #fff;
+    font-size: 130%;
+}
+.navbar ul li:nth-child(5){
+    float: right;
+}
+.navbar ul li:nth-child(4){
+    left: 50%;
+    position: absolute;
+    font-size: 200%; 
+    line-height: 30px;
+}
+.navbar ul li a i{
+    color: red;
+}
+.hero-text{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+}
+.hero-text h1{
+    padding: 20px 0; 
+}
+.hero-text pre{
+    font-size: 150%;  
+}
+.hero-text pre i{
+    font-size: 100%;
+    padding: 0 20px;
+    margin-bottom: 120px;
+}
+/*======================================================*/
+/*ABOUT SECTION*/
+/*======================================================*/
+.about{
+    background-color: #a6b1c3;
+    height: 100vh;
+}
+.logo i{
+    font-size: 1500%;
+    color: red;
+}
+.about-text h2{
+    color: red;
+    padding: 30px 0;
+}
+.about-text p{
+    font-size: 150%;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: #333;
+}
+/*======================================================*/
+/*PORTFOLIO SECTION*/
+/*======================================================*/
+.portfolio{
+    background-color: #aba3b0;
+}
+.grid-container{
+    padding: 0 30px;
+    color: #333;    
+}
+ .port-text h2{
+    padding-bottom: 30px;
+    color: red;
+}
+.grid-item{
+    border: 1px solid red;
+    padding: 10px;
+}
+.grid-item img{
+    
+}
+.grid-item p{
+    font-size: 100%;
+    padding: 10px 10px;
+    text-align: left; 
+}
+.grid-item a{
+    
+}
+/*======================================================*/
+/*PORTFOLIO SECTION*/
+/*======================================================*/
+.aboutme{
+    background-color: #000;
+}
+.about-box{
+    padding:60px; 
+}
+.me{
+    width: 300px;
+    padding: 10px 50px;
+    float: left;
+}
+.about-box h3{
+    text-align: left;
+}
+.about-box p{
+    font-size: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+/*======================================================*/
+/*FOOTER SECTION*/
+/*======================================================*/
+.footer{
+    background-color: #f2e7e2;
+    color: #333;
+}
+.footer h3{
+    padding-bottom: 20px;
+}
+.footer ul li{
+    font-size: 100%;
+    padding-bottom: 10px;
+}
+.social-icon{
+    font-size: 150%;
+}
+.social-icon i{
+    padding: 20px 10px;
+}
+.social-icon i:hover{
+    color: red;
+}

@@ -1,0 +1,286 @@
+@media screen and (max-width:1130px){
+    .hero-text h1{
+        font-size:250%;
+    }
+    .about{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:1024px){
+    .hero-text h1{
+        font-size:200%;
+    }
+     .hero-text pre{
+        font-size: 100%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 90%;
+    }
+    .logo i{
+        font-size: 1200%;
+    }
+     .about-text h2{
+        font-size: 170%;
+    }
+    .about-text p{
+        font-size: 140%;
+    }
+    .grid-container{
+        grid-template-columns: auto ;
+    }
+    .about-box h3{
+        font-size: 120%;
+        text-align: left;
+    }
+    .about-box p{
+        font-size: 80%;
+        text-align: left;
+        overflow: hidden;
+    }
+    .about{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:900px){
+    .hero-text h1{
+        font-size:150%;
+    }
+     .hero-text pre{
+        font-size: 90%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 80%;
+    }
+    .logo i{
+    font-size: 1100%;
+    }
+    .about-text h2{
+    font-size: 160%;
+    }
+    .about-text p{
+    font-size: 100%;
+    }
+    .me{
+        width: 300px;
+        padding: 10px 20px;
+        float: left;
+    }
+    .about-box h3{
+        font-size: 100%;
+        text-align: left;
+    }
+    .about-box p{
+        font-size: 70%;
+        text-align: left;
+        overflow: hidden;
+    }
+    .about{
+        height: 50vh;
+    }
+}
+@media screen and (max-width:767px){
+    .hero-text h1{
+        font-size:120%;
+    }
+     .hero-text pre{
+        font-size: 80%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 80%;
+    }
+     .logo i{
+    font-size: 1000%;
+    }
+    .about-text h2{
+    font-size: 150%;
+    }
+    .about-text p{
+    font-size: 130%;
+    } 
+    .about{
+        height: 60vh;
+    }
+    .grid-container2{
+        grid-template-columns: auto auto;
+        }
+}
+@media screen and (max-width:620px){
+    .hero-text h1{
+        font-size:120%;
+    }
+     .hero-text pre{
+        font-size: 80%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 80%;
+    }
+     .logo i{
+    font-size: 900%;
+    }
+    .about-text h2{
+    font-size: 150%;
+    }
+    .about-text p{
+    font-size: 110%;
+    } 
+    .about{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:440px){
+    .hero-text h1{
+        font-size:100%;
+    }
+    .hero-text pre{
+        font-size: 60%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 80%;
+    }
+    .navbar ul li {
+        padding: 5px 5px;
+    }
+     .logo i{
+    font-size: 800%;
+    }
+    .about-text h2{
+    font-size: 120%;
+    }
+    .about-text p{
+    font-size: 90%;
+    }
+    .about-box{
+        padding:60px;
+        text-align: center;
+    }
+     .me{
+        width: 300px;
+        padding: 20px 0px;
+        float: left;
+    }
+    .about-box h3{
+        font-size: 100%;
+        text-align: left;
+    }
+    .about-box p{
+        font-size: 70%;
+        text-align: left;
+        overflow: hidden;
+    }
+    .about{
+        height: 60vh;
+    }
+    .footer h3{
+        font-size: 100%;
+    }
+    .footer ul li{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:375px){
+    .hero-text h1{
+        font-size:90%;
+    }
+     .hero-text pre{
+        font-size: 40%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 60%;
+    }
+    .navbar ul li {
+        padding: 5px 5px;
+    }
+     .logo i{
+    font-size: 700%;
+    }
+    .about-text h2{
+    font-size: 100%;
+    }
+    .about-text p{
+    font-size: 80%;
+    }
+    .grid-item img{
+        width: 90%;
+        margin: auto;
+    }
+    .grid-item p{
+        font-size: 80%;
+        width: 90%;
+        margin: auto;
+    }
+    .about-box{
+        padding:30px;
+        text-align: center;
+    }
+     .me{
+        width: 300px;
+        padding: 20px 0px;
+        float: left;
+    }
+    .about-box h3{
+        font-size: 80%;
+        text-align: left;
+    }
+    .about-box p{
+        font-size: 60%;
+        text-align: left;
+        overflow: hidden;
+    }
+    .about{
+        height: 50vh;
+    }
+    .footer h3{
+        font-size: 90%;
+    }
+    .footer ul li{
+        font-size: 70%;
+    }
+
+}
+@media screen and (max-width:320px){
+    .hero-text h1{
+        font-size:60%;
+    }
+     .hero-text pre{
+        font-size: 40%;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 60%;
+    }
+     .logo i{
+    font-size: 600%;
+    }
+    .about-text h2{
+    font-size: 90%;
+    }
+    .about-text p{
+    font-size: 70%;
+    }
+    .grid-item img{
+        width: 90%;
+        margin: auto;
+    }
+    .grid-item p{
+        font-size: 60%;
+        width: 90%;
+        margin: auto;
+    }
+    .me{
+        width: 250px;
+        padding: 20px 0px;
+        float: left;
+    }
+    .footer h3{
+        font-size: 80%;
+    }
+    .footer ul li{
+        font-size: 60%;
+    }
+}
